@@ -1,0 +1,52 @@
+{
+  "visi_misi": [
+    {
+      "id": 1,
+      "judul": "Visi",
+      "isi": "Menyiapkan para Pelayan Injil dengan karakter seperti Kristus untuk melayani Allah dan Manusia"
+    },
+    {
+      "id": 2,
+      "judul": "Misi",
+      "isi": "jacky kntl"
+    }
+  ],
+
+  "aboutUs": [
+    {
+      "id": 1,
+      "gambar": 3,
+      "portfolio": 1,
+      "description": "Latar Belakang",
+      "descriptionAboutUs": "Sebagai bagian dari Universitas Klabat, Fakultas Filsafat menerima tanggung jawab memenuhi kebutuhan akademis bidang agama di insitusi ini. Fakultas Filsafat membuka program studi Filsafat Agama Kristen Advent dengan gelar Sarjana Agama bagi pria dan wanita yang menghendaki suatu pendidikan tinggi untuk mempersiapkan diri bagi pengabdian kepada Tuhan dan masyarakat. Mahasiswa dapat memilih program Filsafat teologi dengan menyelesaikan 145-150 sks mata kuliah Fakultas Filsafat sesuai kurikulumnya atau program minor dengan menyelesaikan 128 sks dari kurikulum fakultas Filsafat plus 24-38 sks minor pada fakultas pilihannya. Matakuliah-matakuliah pada program studi yang diselengarahkan oleh Fakultas Filsafat ini disusun untuk memperkuat komitmen mahasiswa kepada Yesus Kristus dan keterlibatan pribadi mereka pada misi Gereja Masehi Advent Hari Ketujuh. Selain menyediakan 12-16 sks mata kuliah agama kepada semua mahasiswa Universitas Klabat, Fakultas Filsafat menawarkan juga program minor kepada fakultas lain yang bernaung di bawah lingkungan Universitas Klabat."
+    },
+    {
+      "id": 2,
+      "gambar": 1,
+      "portfolio": 2,
+      "description": "Persyaratan",
+      "descriptionAboutUs": "Fakultas Filsafat menerima pria dan wanita yang menunjukan kematangan, ketertarikan, dan kecerdasan untuk mempelajari filsafat / teologi agama. Mereka yang ingin mendaftar di fakultas ini tidak harus menjadi anggota Gereja Masehi Advent Hari Ketujuh namun harus menyokong misi, tujuan-tujuan, dan nilai-nilai Gereja Masehi Advent Hari Ketujuh. Seseorang yang berencana mendapatkan gelar Sarjana Agama dari Fakultas Filsafat Universitas Klabat, selain memenuhi syarat-syarat penerimaan mahasiswa Universitas Klabat, harus juga: 1. Lulus tes masuk khusus calon mahasiswa Fakultas Filsafat. 2. Membawa surat pernyataan dari Pendeta atau Ketua Jemaat asal 3. Mengisi formulir khusus ketika pendaftaran memasuki semester ketiga; mahasiswa pindahan dari fakultas lain akan mengisi formulir yang sama setelah dua semester berada di fakultas ini, dan akan dievaluasi oleh komite fakultas. 4. Memenuhi kriteria untuk dapat diterima pada pendaftaran semester ketiga antara lain: 5. Sekurang-kurangnya satu dari dua semester pertama mencapai akumulatif GPA 2.3 6. Telah melaporkan kepada dosen pembimbing kegiatan pelayanan sosial dan kerohanian yang dilaksanakan dua jam tiap minggu, diluar kegiatan ibadah resmi 7. Telah membuktikan kehidupan moral, tingkah laku, sikap, dan tutur kata yang sepadan dengan konteks mahasiswa Fakultas Filsafat. 8. Telah menunjukan secara aktif bakat-bakat kepemimpinan. 9. Memiliki ketrampilan sosial dan kesungguh-sungguhan dalam keyakinan dan profesi yang telah ditunjukan. Setelah diterima secara resmi pada Fakultas Filsafat, ternyata kemudian mahasiswa gagal mempertahankan kriteria seperti yang tercantum diatas, secara otomatis mahasiswa tersebut gugur dari fakultas dan dianjurkan memilih program pendidikan yang lebih tepat baginya."
+    }
+  ],
+
+  "profile": [
+    {
+      "id": 1,
+      "gambar": 1,
+      "jabatan": "Dekan",
+      "nama": "Pdt. Suryanicaa Aristas Pasuhuk MA, Ph.D"
+    },
+    {
+      "id": 2,
+      "gambar": 2,
+      "jabatan": "Kaprodi",
+      "nama": "Pdt. Suryanicaa Aristas Pasuhuk MA, Ph.D"
+    },
+    {
+      "id": 3,
+      "gambar": 3,
+      "jabatan": "Ketua BEM",
+      "nama": "Andreas Topuh"
+    }
+  ]
+}
