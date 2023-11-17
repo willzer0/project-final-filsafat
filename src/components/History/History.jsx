@@ -1,7 +1,7 @@
 import foto1 from "../../assets/img/about/1.jpg";
-import foto2 from "../../assets/img/about/1.jpg";
-import foto3 from "../../assets/img/about/1.jpg";
-import foto4 from "../../assets/img/about/1.jpg";
+import foto2 from "../../assets/img/about/2.jpg";
+import foto3 from "../../assets/img/about/3.jpg";
+import foto4 from "../../assets/img/about/4.jpg";
 
 function History() {
   return (
