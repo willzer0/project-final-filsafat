@@ -5,7 +5,7 @@
 // import AboutUs from './components/AboutUs/aboutus'
 // import ContactUs from './components/Contact/ContactUs'
 import History from "./components/History/history";
-// import Lecture from './components/Lecture/Lecture'
+import Lecture from './components/Lecture/Lecture'
 // import Masterhead from './components/Masterhead/Masterhead'
 // import VisiMisi from './components/VisiMisi/VisiMisi'
 // import Header from './components/header/header'
@@ -20,7 +20,7 @@ function App() {
     <VisiMisi/>
     <AboutUs /> */}
       <History />
-      {/* <Lecture />
+      <Lecture />
     <ContactUs /> */}
     </>
   );
