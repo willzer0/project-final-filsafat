@@ -21,7 +21,7 @@ function App() {
     <AboutUs /> */}
       <History />
       <Lecture />
-    <ContactUs /> */}
+    {/* <ContactUs />  */}
     </>
   );
 }
