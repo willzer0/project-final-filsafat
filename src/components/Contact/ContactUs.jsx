@@ -55,9 +55,9 @@ function ContactUs() {
             </div>
   
             <h3 className="h6">Phone</h3>
-            <div className="pb-2 text-secondary">0857-1779-7065</div>
+            <div className="pb-2 text-secondary">------</div>
             <h3 className="h6">Email</h3>
-            <div className="pb-2 text-secondary">andreasjeno23@gmail.com</div>
+            <div className="pb-2 text-secondary">kelompok-front-end@gmail.com</div>
           </div>
         </div>
       </div>
