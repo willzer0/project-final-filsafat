@@ -6,9 +6,9 @@
 // import ContactUs from './components/Contact/ContactUs'
 import History from "./components/History/history";
 import Lecture from './components/Lecture/Lecture'
-// import Masterhead from './components/Masterhead/Masterhead'
+import Masterhead from './components/Masterhead/Masterhead'
 // import VisiMisi from './components/VisiMisi/VisiMisi'
-// import Header from './components/header/header'
+import Header from './components/header/header'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,8 +16,8 @@ function App() {
   return (
     <>
       <Header/>
-    {/*<Masterhead />
-    <VisiMisi/>
+    <Masterhead />
+    {/*<VisiMisi/>
     <AboutUs /> */}
       <History />
       <Lecture />
