@@ -7,7 +7,7 @@ import ContactUs from './components/Contact/ContactUs'
 import History from "./components/History/history";
 import Lecture from './components/Lecture/Lecture'
 import Masterhead from './components/Masterhead/Masterhead'
-// import VisiMisi from './components/VisiMisi/VisiMisi'
+import VisiMisi from './components/VisiMisi/VisiMisi'
 import Header from './components/header/header'
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
     <>
       <Header/>
     <Masterhead />
-    {/*<VisiMisi/>
-    <AboutUs /> */}
+    <VisiMisi/>
+    {/* <AboutUs /> */}
       <History />
       <Lecture />
     <ContactUs />
