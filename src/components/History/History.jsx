@@ -2,8 +2,20 @@ import foto1 from "../../assets/img/about/1.jpg";
 import foto2 from "../../assets/img/about/2.jpg";
 import foto3 from "../../assets/img/about/3.jpg";
 import foto4 from "../../assets/img/about/4.jpg";
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect, useState } from "react";
 
 function History() {
+  const [teks, setTeks] = useState("");
+
+  useEffect(() => {
+    const db = getDatabase();
+    const historyRef = ref(db, "history/");
+    onValue(historyRef, (snapshot) => {
+      const data = snapshot.val();
+      setTeks(data.teks);
+    });
+  }, []);
   return (
     <section className="page-section" id="about">
       <div className="container">
@@ -21,22 +33,7 @@ function History() {
                 <h4 className="subheading">Pada Awalnya</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">
-                  Tahun 1965 Universitas Klabat (UNKLAB) didirikan dengan nama
-                  Perguruan Tinggi Klabat (PTK) yang di bina dan diawasi oleh
-                  Gereja Masehi Advent Hari Ketujuh (GMAHK) melalui Yayasan
-                  Perguruan Tinggi Klabat. Pada mulanya, Perguruan tinggi ini
-                  didirikan untuk menghasilkan pendeta-pendeta dan guru-guru
-                  yang akan melayani kebutuhan khusus organisasi GMAHK
-                  propinsi-propinsi di Sulawesi, Maluku, dan irian Jaya.
-                  Selanjutnya Seiring dengan perkembangan organisasi GMAHK,
-                  dirasakan perlu untuk menyediakan tenaga-tenaga sekertaris,
-                  akuntan, bahkan tenaga-tenaga sarjana di dalam bidang
-                  pertanian, komputer dan keperawatan yang juga diperlukan untuk
-                  pembangunan regional dan nasional. Saat didirikan, PTK membuka
-                  program studi Diploma Dua Tahun (D2) untuk Teologia dan
-                  Pendidikan Sekolah Dasar.
-                </p>
+                <p className="text-muted">{teks}</p>
               </div>
             </div>
           </li>
