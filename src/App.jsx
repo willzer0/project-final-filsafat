@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
+import './styles/styles.css'
 
 import AboutUs from "./components/AboutUs/AboutUs";
 import ContactUs from "./components/Contact/ContactUs";

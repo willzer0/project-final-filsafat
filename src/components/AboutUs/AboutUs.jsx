@@ -21,13 +21,13 @@ function AboutUs() {
           </div>
 
           <div className="row">
-            <div className="col-lg-4 col-sm-6 mb-4">
-              {/* Portfolio item 1*/}
-              <div className="portfolio-item porto-item-1">
-                {aboutUs.map((item) => {
-                  return (
-                    <>
-                      <div className="latar-belakang" key={item.id}>
+            {aboutUs.map((item) => {
+              return (
+                <>
+                  <div className="col-lg-4 col-sm-6 mb-4 " key={item.id}>
+                    {/* Portfolio item 1*/}
+                    <div className="portfolio-item ">
+                      <div className="latar-belakang">
                         <a
                           className="portfolio-link"
                           data-bs-toggle="modal"
@@ -103,11 +103,11 @@ function AboutUs() {
                           </div>
                         </div>
                       </div>
-                    </>
-                  );
-                })}
-              </div>
-            </div>
+                    </div>
+                  </div>
+                </>
+              );
+            })}
           </div>
         </div>
       </section>
