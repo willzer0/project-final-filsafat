@@ -1,13 +1,23 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import { getDatabase, ref, onValue } from "firebase/database";
+
+// import axios from "axios";
 
 function Lecture() {
-  const [profile, setFeatures] = useState([]);
+  const [profile, setLecture] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3000/profile")
-      .then((res) => setFeatures(res.data));
+    const db = getDatabase();
+    const featuresRef = ref(db, "lecturer/");
+    onValue(featuresRef, (snapshot) => {
+      const data = snapshot.val();
+      // if (data) {
+        setLecture(data);
+      // }
+    });
+    // axios
+    //   .get("http://localhost:3000/profile")
+    //   .then((res) => setFeatures(res.data));
   }, []);
   return (
     <section className="page-section bg-light" id="team">
@@ -19,16 +29,16 @@ function Lecture() {
             God and Humanity.
           </h3>
         </div>
-
         {/* // eslint-disable-next-line react/jsx-key */}
         <div className="row">
+
           {profile.map((item) => {
             return (
               <div className="col-lg-4" key={item.id}>
                 <div className="team-member">
                   <img
                     className="mx-auto rounded-circle"
-                    src={`/src/assets/img/team/${item.gambar}.jpg`}
+                    src={item.gambar}
                     alt="..."
                   />
                   <h4>{item.jabatan}</h4>
