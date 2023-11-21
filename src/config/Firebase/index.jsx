@@ -9,8 +9,7 @@ import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   apiKey: "AIzaSyCa28nIvTugs5FHzVZXPs0chtYpGREEDDo",
   authDomain: "project-website-filsafat.firebaseapp.com",
-  databaseURL:
-    "https://project-website-filsafat-default-rtdb.asia-southeast1.firebasedatabase.app",
+  databaseURL: "https://project-website-filsafat-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "project-website-filsafat",
   storageBucket: "project-website-filsafat.appspot.com",
   messagingSenderId: "248751814809",
