@@ -40,7 +40,10 @@ function AboutUs() {
                           className="portfolio-link"
                           data-bs-toggle="modal"
                           // href="#portfolioModal1"
-                          href={`#portfolioModal${item.portfolio}`}
+                          // href={#{item.portofolio}  
+
+                          
+                          href={`#portofolioModal${item.portofolio}`}
                         >
                           <div className="portfolio-hover">
                             <div className="portfolio-hover-content">
@@ -64,7 +67,9 @@ function AboutUs() {
 
                       <div
                         className="portfolio-modal modal fade"
-                        id={`portfolioModal${item.portfolio}`}
+                        id={`portofolioModal${item.portofolio}`}
+
+                        // id={`portfolioModal${item.portfolio}`}
                         tabIndex={-1}
                         role="dialog"
                         aria-hidden="true"
