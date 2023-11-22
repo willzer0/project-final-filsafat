@@ -25,7 +25,7 @@ function Masterhead() {
           <div className="masthead-heading text-uppercase">
             {heading}
           </div>
-          <a className="btn btn-warning btn-xl text-uppercase" href="#services">
+          <a className="btn btn-warning btn-xl text-uppercase" href="#portfolio">
             More About Us
           </a>
         </div>
