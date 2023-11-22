@@ -38,7 +38,7 @@ function ContactUs() {
                   defaultValue={""}
                 />
               </div>
-              <button className="btn btn-primary mt-2" type="submit">
+              <button className="btn btn-warning mt-2" type="submit">
                 Send
               </button>
             </form>
