@@ -1,31 +1,46 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import { getDatabase, ref, onValue } from "firebase/database";
+// import axios from "axios";
+
 
 function VisiMisi() {
-  const [visi_misi, setFeatures] = useState([]);
+  const [misi, setMisi] = useState("");
+  const [visi, setVisi] = useState("");
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3000/visi_misi")
-      .then((res) => setFeatures(res.data));
-  }, []);
+    const db = getDatabase();
+    const featuresRef = ref(db, "visimisi/");
+    onValue(featuresRef, (snapshot) => {
+      const data = snapshot.val();
+      // if (data) {
+        setMisi(data.misi);
+        setVisi(data.visi);
+
+        // console.log(data);
+      // }
+    });
+    // axios
+    //   .get("http://localhost:3000/profile")
+    //   .then((res) => setFeatures(res.data));
+  }, []);
   return (
     <section className="page-section" id="services">
       <div className="container">
-        {/* more */}
-        {visi_misi.map((item) => {
-          return (
-            <div className="row text-center " key={item.id}>
+
+            <div className="row text-center ">
               {" "}
               <center>
                 <div className="col-md-4">
-                  <h4 className="my-3">{item.judul}</h4>
-                  <p className="text-muted">{item.isi} </p>
+                  <h4 className="my-3">Misi</h4>
+                  <p className="text-muted">{misi} </p>
+                </div>
+                <div className="col-md-4">
+                  <h4 className="my-3">Visi</h4>
+                  <p className="text-muted">{visi} </p>
                 </div>
               </center>
             </div>
-          );
-        })}
+
       </div>
     </section>
   );
