@@ -1,0 +1,7 @@
+1. pertama buka CMD trus pergi ke lokasi ini file
+
+2. sebelum ke tahap dibawah pastikan so buka cmd terus install db json local : npm install -g json-server
+
+3. lalu copas ini : json-server --watch db.json
+
+4. lalu refresh
