@@ -2,20 +2,8 @@ import foto1 from "../../assets/img/about/1.jpg";
 import foto2 from "../../assets/img/about/2.jpg";
 import foto3 from "../../assets/img/about/3.jpg";
 import foto4 from "../../assets/img/about/4.jpg";
-import { getDatabase, ref, onValue } from "firebase/database";
-import { useEffect, useState } from "react";
 
 function History() {
-  const [teks, setTeks] = useState("");
-
-  useEffect(() => {
-    const db = getDatabase();
-    const historyRef = ref(db, "history/");
-    onValue(historyRef, (snapshot) => {
-      const data = snapshot.val();
-      setTeks(data.teks);
-    });
-  }, []);
   return (
     <section className="page-section" id="about">
       <div className="container">
@@ -30,10 +18,22 @@ function History() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4 className="subheading">Pada Awalnya</h4>
+                <h4 className="subheading">At Begining</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">{teks}</p>
+                <p className="text-muted"></p>1965 Klabat University (UNKLAB)
+                was founded under the name Klabat Higher Education (PTK) which
+                is built and supervised by the Seventh-day Adventist Church
+                (GMAHK) through the Klabat Higher Education Foundation. At
+                first, This college was founded to produce pastors and teachers
+                who will serve the needs specifically for GMAHK organizations in
+                the provinces of Sulawesi, Maluku, and Irian Jaya. Next Along
+                with developments GMAHK organization, felt the need to provide
+                secretaries, accountants, even graduate staff in agriculture,
+                computers and nursing as well necessary for regional and
+                national development. Moment founded, PTK opened a Two Year
+                Diploma (D2) study program for Theology and Elementary School
+                Education.
               </div>
             </div>
           </li>
@@ -43,23 +43,22 @@ function History() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4 className="subheading">Perubahan PTK</h4>
+                <h4 className="subheading">PTK changes</h4>
               </div>
               <div className="timeline-body">
                 <p className="text-muted">
-                  Ketika pada tahun 1970 PTK dirubah menjadi Sekolah Tinggi
-                  Klabat (STK) berdasarkan Surat Keputusan Mentri Pendidikan dan
-                  Kebudayaan Nomor 211/S/DPT/I/1970, maka dikembangkan program
-                  Sarjana Muda Empat Tahun untuk program studi Teologia dan
-                  Pendidikan Sekolah Menengah dan dibuka program D2 untuk
-                  program studi Sekretari dan Business Administration atau
-                  Commerce. Selanjutnya program studi Commerce dikembangkan
-                  menjadi program sarjana muda yang diikuti dengan program studi
-                  sarjana muda Pendidikan Bahasa Inggris dan Pendidikan Agama
-                  untuk memperluas pelayanan terhadap kebutuhan masyarakat yang
-                  lebih luas. Kemudian pada tahun 1982 terjadi perubahan dari
-                  STK menjadi Universitas Klabat melalui Surat Keputusan Mentri
-                  Pendidikan dan Kebudayaan No. 0184/0/1982.
+                  When in 1970 PTK was changed to High School Klabat (STK) based
+                  on the Decree of the Minister of Education and Culture Number
+                  211/S/DPT/I/1970, a program was developed Four-Year
+                  Baccalaureate for theology and study programs Middle School
+                  Education and opened a D2 program for Secretary and Business
+                  Administration study program or Commerce. Furthermore, the
+                  Commerce study program was developed be a baccalaureate
+                  program followed by a study program baccalaureate in English
+                  Language Education and Religious Education to expand services
+                  to meet community needs wider. Then in 1982 there was a change
+                  from STK became Klabat University through a Ministerial Decree
+                  Education and Culture No. 0184/0/1982.
                 </p>
               </div>
             </div>
@@ -70,19 +69,19 @@ function History() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4 className="subheading">Penambahan Fakultas</h4>
+                <h4 className="subheading">Additional Faculty</h4>
               </div>
               <div className="timeline-body">
                 <p className="text-muted">
-                  Melengkapi fakultas eksakta yang sudah ada, pada tahun 1999
-                  UNKLAB membuka Fakultas llmu Komputer (FIK) dengan program
-                  studi Sisim Informasi. Sekarang ini UNKLAB memiliki 1(satu)
-                  Program Pascasarjana, 7 (tujuh) fakultas dan 1 (satu) akademi,
-                  yaitu; (1) Pascasarjanan Magister Manajemen (2) Fakultas
-                  Ekonomi (FEKON), (3) Fakultas Filsafat, (4) Fakultas Keguruan
-                  dan Ilmu Pendidikan (FKIP), (5) Fakultas Ilmu Keperawatan (6)
-                  Fakultas Ilmu Komputer (FIK) (7) Fakultas Pertanian, dan (8)
-                  Akademi Sekretari Klabat
+                  Complementing the existing Exact Faculty, in 1999 UNKLAB opens
+                  a Faculty of Computer Science (FIK) with programs Information
+                  Systems study. Currently UNKLAB has 1(one) Postgraduate
+                  Program, 7 (seven) faculties and 1 (one) academy, that is; (1)
+                  Postgraduate Master of Management (2) Faculty Economics
+                  (FEKON), (3) Faculty of Philosophy, (4) Faculty of Teaching
+                  and Education Sciences (FKIP), (5) Faculty of Nursing (6)
+                  Faculty of Computer Science (FIK) (7) Faculty of Agriculture,
+                  and (8) Klabat Secretarial Academy
                 </p>
               </div>
             </div>
@@ -93,16 +92,16 @@ function History() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4 className="subheading">Penyelenggaraan Jenjang S2</h4>
+                <h4 className="subheading">Implementation of Master's Level</h4>
               </div>
               <div className="timeline-body">
                 <p className="text-muted">
-                  Pada tanggal 7 agustus 2019, telah berlangsung Acara inagurasi
-                  Program S2 Teologi Universitas Klabat dengan sangat baik. Dan
-                  ada sebanyak 37 mahasiswa program magister Teologi yang telah
-                  terdaftar dan siap mengikuti perkuliahan semester 1, TA
-                  2019/2020. Maka dengan pernyataan Tuhan Magister Teologi
-                  Unklab telah berlangsung dengan baik hingga saat ini.
+                  On August 7 2019, an inauguration event took place Klabat
+                  University's Theology Masters Program is very good. And there
+                  are 37 Theology master's program students who have registered
+                  and ready to take semester 1 lectures, TA 2019/2020. So with
+                  the statement of God Master of Theology Unklab has been going
+                  well so far.
                 </p>
               </div>
             </div>
