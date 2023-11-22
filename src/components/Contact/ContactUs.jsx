@@ -1,6 +1,5 @@
-import './contacus.css'
+import "./contacus.css";
 function ContactUs() {
-
   return (
     <footer>
       <div className="footer" id="contact">
@@ -37,8 +36,8 @@ function ContactUs() {
             </li>
           </ul>
           <div>
-          INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By:
-          Mahesh
+            This is our project in front end class usign vite+react,bootstrap
+            and firebase
           </div>
         </div>
         {/* <div className="row">
