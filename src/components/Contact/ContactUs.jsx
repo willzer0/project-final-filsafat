@@ -1,68 +1,53 @@
+import './contacus.css'
 function ContactUs() {
-    return (
-      <div className="row contact " id="contact" >
-        <div className="col-md-7 d-print-none">
-          <div className="my-2">
-            <form action="https://formspree.io/f/mvojnggg" method="POST">
-              <div className="row">
-                <div className="col-6">
-                  <input
-                    className="form-control"
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Your Name"
-                    required
-                  />
-                </div>
-                <div className="col-6">
-                  <input
-                    className="form-control"
-                    type="email"
-                    id="email"
-                    name="_replyto"
-                    placeholder="Your E-mail"
-                    required
-                  />
-                </div>
-              </div>
-              <div className="form-group my-2">
-                <textarea
-                  className="form-control"
-                  style={{ resize: "none" }}
-                  id="message"
-                  name="message"
-                  rows={4}
-                  placeholder="Your Message"
-                  required
-                  defaultValue={""}
-                />
-              </div>
-              <button className="btn btn-warning mt-2" type="submit">
-                Send
-              </button>
-            </form>
+
+  return (
+    <footer>
+      <div className="footer" id="contact">
+        <div className="logo">
+          <a href="#">
+            <i className="logo-sosmed fab fa-facebook fa-2x" />
+          </a>
+          <a href="#">
+            <i className="logo-sosmed fab fa-instagram fa-2x" />
+          </a>
+          <a href="#">
+            <i className="logo-sosmed fab fa-youtube fa-2x" />
+          </a>
+          <a href="#">
+            <i className="logo-sosmed fab fa-twitter fa-2x" />
+          </a>
+        </div>
+        <div className="row">
+          <ul>
+            <li>
+              <a href="#">Contact us</a>
+            </li>
+            <li>
+              <a href="#">Our Services</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Terms &amp; Conditions</a>
+            </li>
+            <li>
+              <a href="#">Career</a>
+            </li>
+          </ul>
+          <div>
+          INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By:
+          Mahesh
           </div>
         </div>
-        <div className="col">
-          <div className="mt-2">
-            <h3 className="h6">Address</h3>
-            <div className="row">
-              <div className="col-12 pb-2 pr-5 text-secondary">
-                <i className="fa-sharp fa-solid fa-location-dot"></i>
-                Bitung City, North Sulawesi, Indonesia
-              </div>
-            </div>
-  
-            <h3 className="h6">Phone</h3>
-            <div className="pb-2 text-secondary">------</div>
-            <h3 className="h6">Email</h3>
-            <div className="pb-2 text-secondary">kelompok-front-end@gmail.com</div>
-          </div>
-        </div>
+        {/* <div className="row">
+          INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By:
+          Mahesh
+        </div> */}
       </div>
-    );
-  }
-  
-  export default ContactUs;
-  
+    </footer>
+  );
+}
+
+export default ContactUs;
