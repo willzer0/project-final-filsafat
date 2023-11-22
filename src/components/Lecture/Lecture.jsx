@@ -12,7 +12,7 @@ function Lecture() {
     onValue(featuresRef, (snapshot) => {
       const data = snapshot.val();
       // if (data) {
-        setLecture(data);
+      setLecture(data);
       // }
     });
     // axios
@@ -31,7 +31,6 @@ function Lecture() {
         </div>
         {/* // eslint-disable-next-line react/jsx-key */}
         <div className="row">
-
           {profile.map((item) => {
             return (
               <div className="col-lg-4" key={item.id}>
@@ -62,18 +61,17 @@ function Lecture() {
               <br />
               <br />
               <br />
-              Memasukkan prinsip – prinsip Alkitab didalam setiap mata kuliah
-              yang diajarkan untuk memacu iman yang arif di dalam Yesus Kristus.
-              Melalui ajaran dan teladan, memacu para mahasiswa secara aktif
-              mengakrabkan orang lain kepada Yesus Kristus atas dasar keyakinan
-              karena aktifitas ini adalah tugas utama yang dikehendaki Yesus
-              untuk diamalkan oleh setiap pengikut-Nya dalam rangka melaksanakan
-              Amanat Agung – Nya. (Matius 4 : 19); (Matius 28 : 18 – 20).
-              Mendorong perkembanan nilai – nilai kekristenan yang sejati di
-              dalam diri para mahasiswa guna menjadi dasar keputusan – keputusan
-              moral sebagai pengikut – pengikut Kristus. Memperkenalkan dan
-              menekankan ajaran – ajaran, sejarah, dan misi global Gereja Masehi
-              Advent Hari Ketujuh.
+              Incorporate Biblical principles into every course which is taught
+              to stimulate wise faith in Jesus Christ. Through teaching and
+              example, actively encourage students to introduce others to Jesus
+              Christ on the basis of faith because this activity is the main
+              task desired by Jesus to be practiced by every one of His
+              followers in order to carry it out His Great Commission. (Matthew
+              4 : 19); (Matthew 28:18 – 20). Encourage the development of true
+              Christian values in within students to become the basis for
+              decisions morals as followers of Christ. Introducing and the
+              pressure of the teachings, history and global mission of the
+              Christian Church Seventh Day Advent.
             </p>
           </div>
         </div>
