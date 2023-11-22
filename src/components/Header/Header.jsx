@@ -43,7 +43,7 @@ function Header() {
         <Navbar.Toggle aria-controls="navbarResponsive" />
         <Navbar.Collapse id="navbarResponsive">
           <Nav className="ms-auto py-4 py-lg-0">
-            <Nav.Link href="#services">More</Nav.Link>
+            {/* <Nav.Link href="#services">More</Nav.Link> */}
             <Nav.Link href="#portfolio">About Us</Nav.Link>
             <Nav.Link href="#about">History</Nav.Link>
             <Nav.Link href="#team">Lecture</Nav.Link>
