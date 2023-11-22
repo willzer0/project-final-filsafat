@@ -3,7 +3,7 @@
 // import viteLogo from './assets/vite.svg'
 
 // import AboutUs from './components/AboutUs/aboutus'
-// import ContactUs from './components/Contact/ContactUs'
+import ContactUs from './components/Contact/ContactUs'
 import History from "./components/History/history";
 import Lecture from './components/Lecture/Lecture'
 // import Masterhead from './components/Masterhead/Masterhead'
@@ -21,7 +21,7 @@ function App() {
     <AboutUs /> */}
       <History />
       <Lecture />
-    {/* <ContactUs />  */}
+    <ContactUs /> 
     </>
   );
 }
