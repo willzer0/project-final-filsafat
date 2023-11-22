@@ -8,7 +8,7 @@
     {
       "id": 2,
       "judul": "Misi",
-      "isi": "jacky kntl"
+      "isi": "Menyiapkan dan melatih para pelayan Injil melalui pengembangan kwalitas pribadi, pengetahuan, komitmen dan kecakapan yang penting untuk setiap Pelayanan Injil"
     }
   ],
 
@@ -22,6 +22,20 @@
     },
     {
       "id": 2,
+      "gambar": 1,
+      "portfolio": 2,
+      "description": "Persyaratan",
+      "descriptionAboutUs": "Fakultas Filsafat menerima pria dan wanita yang menunjukan kematangan, ketertarikan, dan kecerdasan untuk mempelajari filsafat / teologi agama. Mereka yang ingin mendaftar di fakultas ini tidak harus menjadi anggota Gereja Masehi Advent Hari Ketujuh namun harus menyokong misi, tujuan-tujuan, dan nilai-nilai Gereja Masehi Advent Hari Ketujuh. Seseorang yang berencana mendapatkan gelar Sarjana Agama dari Fakultas Filsafat Universitas Klabat, selain memenuhi syarat-syarat penerimaan mahasiswa Universitas Klabat, harus juga: 1. Lulus tes masuk khusus calon mahasiswa Fakultas Filsafat. 2. Membawa surat pernyataan dari Pendeta atau Ketua Jemaat asal 3. Mengisi formulir khusus ketika pendaftaran memasuki semester ketiga; mahasiswa pindahan dari fakultas lain akan mengisi formulir yang sama setelah dua semester berada di fakultas ini, dan akan dievaluasi oleh komite fakultas. 4. Memenuhi kriteria untuk dapat diterima pada pendaftaran semester ketiga antara lain: 5. Sekurang-kurangnya satu dari dua semester pertama mencapai akumulatif GPA 2.3 6. Telah melaporkan kepada dosen pembimbing kegiatan pelayanan sosial dan kerohanian yang dilaksanakan dua jam tiap minggu, diluar kegiatan ibadah resmi 7. Telah membuktikan kehidupan moral, tingkah laku, sikap, dan tutur kata yang sepadan dengan konteks mahasiswa Fakultas Filsafat. 8. Telah menunjukan secara aktif bakat-bakat kepemimpinan. 9. Memiliki ketrampilan sosial dan kesungguh-sungguhan dalam keyakinan dan profesi yang telah ditunjukan. Setelah diterima secara resmi pada Fakultas Filsafat, ternyata kemudian mahasiswa gagal mempertahankan kriteria seperti yang tercantum diatas, secara otomatis mahasiswa tersebut gugur dari fakultas dan dianjurkan memilih program pendidikan yang lebih tepat baginya."
+    },
+    {
+      "id": 3,
+      "gambar": 1,
+      "portfolio": 2,
+      "description": "Persyaratan",
+      "descriptionAboutUs": "Fakultas Filsafat menerima pria dan wanita yang menunjukan kematangan, ketertarikan, dan kecerdasan untuk mempelajari filsafat / teologi agama. Mereka yang ingin mendaftar di fakultas ini tidak harus menjadi anggota Gereja Masehi Advent Hari Ketujuh namun harus menyokong misi, tujuan-tujuan, dan nilai-nilai Gereja Masehi Advent Hari Ketujuh. Seseorang yang berencana mendapatkan gelar Sarjana Agama dari Fakultas Filsafat Universitas Klabat, selain memenuhi syarat-syarat penerimaan mahasiswa Universitas Klabat, harus juga: 1. Lulus tes masuk khusus calon mahasiswa Fakultas Filsafat. 2. Membawa surat pernyataan dari Pendeta atau Ketua Jemaat asal 3. Mengisi formulir khusus ketika pendaftaran memasuki semester ketiga; mahasiswa pindahan dari fakultas lain akan mengisi formulir yang sama setelah dua semester berada di fakultas ini, dan akan dievaluasi oleh komite fakultas. 4. Memenuhi kriteria untuk dapat diterima pada pendaftaran semester ketiga antara lain: 5. Sekurang-kurangnya satu dari dua semester pertama mencapai akumulatif GPA 2.3 6. Telah melaporkan kepada dosen pembimbing kegiatan pelayanan sosial dan kerohanian yang dilaksanakan dua jam tiap minggu, diluar kegiatan ibadah resmi 7. Telah membuktikan kehidupan moral, tingkah laku, sikap, dan tutur kata yang sepadan dengan konteks mahasiswa Fakultas Filsafat. 8. Telah menunjukan secara aktif bakat-bakat kepemimpinan. 9. Memiliki ketrampilan sosial dan kesungguh-sungguhan dalam keyakinan dan profesi yang telah ditunjukan. Setelah diterima secara resmi pada Fakultas Filsafat, ternyata kemudian mahasiswa gagal mempertahankan kriteria seperti yang tercantum diatas, secara otomatis mahasiswa tersebut gugur dari fakultas dan dianjurkan memilih program pendidikan yang lebih tepat baginya."
+    },
+    {
+      "id": 4,
       "gambar": 1,
       "portfolio": 2,
       "description": "Persyaratan",
