@@ -1,14 +1,22 @@
 // import iconX from "../../assets/img/close-icon.svg";
 import { useEffect, useState } from "react";
-import axios from "axios";
+import { getDatabase, ref, onValue } from "firebase/database";
 
 function AboutUs() {
-  const [aboutUs, setFeatures] = useState([]);
+  const [aboutus, setAboutUs] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3000/aboutUs")
-      .then((res) => setFeatures(res.data));
+    const db = getDatabase();
+    const featuresRef = ref(db, "about/");
+    onValue(featuresRef, (snapshot) => {
+      const data = snapshot.val();
+      // if (data) {
+      setAboutUs(data);
+      // }
+    });
+    // axios
+    //   .get("http://localhost:3000/profile")
+    //   .then((res) => setFeatures(res.data));
   }, []);
 
   return (
@@ -21,7 +29,7 @@ function AboutUs() {
           </div>
 
           <div className="row">
-            {aboutUs.map((item) => {
+            {aboutus.map((item) => {
               return (
                 <>
                   <div className="col-lg-4 col-sm-6 mb-4 " key={item.id}>
@@ -42,7 +50,7 @@ function AboutUs() {
                           </div>
                           <img
                             className="img-fluid"
-                            src={`/src/assets/img/portfolio/${item.gambar}.jpg`}
+                            src={item.gambar}
                             alt="..."
                           />
                         </a>
@@ -79,7 +87,7 @@ function AboutUs() {
                                     </p>
                                     <img
                                       className="img-fluid d-block mx-auto"
-                                      src={`/src/assets/img/portfolio/${item.gambar}.jpg`}
+                                      src={item.gambar}
                                       alt="..."
                                     />
                                     {/* ISI DALAM */}
