@@ -21,19 +21,21 @@ function History() {
                 <h4 className="subheading">At Begining</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted"></p>1965 Klabat University (UNKLAB)
-                was founded under the name Klabat Higher Education (PTK) which
-                is built and supervised by the Seventh-day Adventist Church
-                (GMAHK) through the Klabat Higher Education Foundation. At
-                first, This college was founded to produce pastors and teachers
-                who will serve the needs specifically for GMAHK organizations in
-                the provinces of Sulawesi, Maluku, and Irian Jaya. Next Along
-                with developments GMAHK organization, felt the need to provide
-                secretaries, accountants, even graduate staff in agriculture,
-                computers and nursing as well necessary for regional and
-                national development. Moment founded, PTK opened a Two Year
-                Diploma (D2) study program for Theology and Elementary School
-                Education.
+                <p className="text-muted">
+                  1965 Klabat University (UNKLAB) was founded under the name
+                  Klabat Higher Education (PTK) which is built and supervised by
+                  the Seventh-day Adventist Church (GMAHK) through the Klabat
+                  Higher Education Foundation. At first, This college was
+                  founded to produce pastors and teachers who will serve the
+                  needs specifically for GMAHK organizations in the provinces of
+                  Sulawesi, Maluku, and Irian Jaya. Next Along with developments
+                  GMAHK organization, felt the need to provide secretaries,
+                  accountants, even graduate staff in agriculture, computers and
+                  nursing as well necessary for regional and national
+                  development. Moment founded, PTK opened a Two Year Diploma
+                  (D2) study program for Theology and Elementary School
+                  Education.
+                </p>
               </div>
             </div>
           </li>
