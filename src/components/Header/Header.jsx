@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line no-unused-vars
 
-import fotologo from '../../assets/img/logos/navbar-logo.svg';
+import logoImage from '../../assets/img/logos/logo-None-universitas-klabat-0ede7ae5.png';
 
 
 import React, { useEffect } from 'react';
@@ -36,8 +36,8 @@ function Header() {
   return (
     <Navbar className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" expand="lg">
       <Container>
-        <Navbar.Brand href="#page-top">
-          <img src={fotologo} alt="" />
+        <Navbar.Brand href="#about">
+          <img src={logoImage} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
         <Navbar.Collapse id="navbarResponsive">
