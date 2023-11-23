@@ -171,6 +171,7 @@ h3,
 h4,
 .h4 {
   font-size: calc(1.275rem + 0.3vw);
+ 
 }
 @media (min-width: 1200px) {
   h4,
@@ -11832,18 +11833,20 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ff2600;
+  background-color: #dedcdd;
 }
 .timeline > li .timeline-image h4,
 .timeline > li .timeline-image .h4 {
   font-size: 10px;
   line-height: 14px;
   margin-top: 12px;
+  color: #000000;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
   text-align: left;
+  
 }
 .timeline > li.timeline-inverted > .timeline-panel:before {
   right: auto;
@@ -11901,6 +11904,7 @@ header.masthead .masthead-heading {
     font-size: 13px;
     line-height: 18px;
     margin-top: 16px;
+  
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
