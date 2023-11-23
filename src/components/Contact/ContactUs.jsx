@@ -20,24 +20,25 @@ function ContactUs() {
         <div className="row">
           <ul>
             <li>
-              <a href="#">Contact us</a>
+            <a href="https://forms.gle/eQVSnDunFXc83V1D6" target="_blank" rel="noopener noreferrer">Contact Us</a>
+
+      
             </li>
             <li>
-              <a href="#">Our Services</a>
+              <a href="#portfolio">About Us</a>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="#about">History</a>
             </li>
             <li>
               <a href="#">Terms &amp; Conditions</a>
             </li>
-            <li>
-              <a href="#">Career</a>
+           <li>
+              <a href="#team">Lecture</a>
             </li>
           </ul>
           <div>
-            This is our project in front end class usign vite+react,bootstrap
-            and firebase
+          This is our front-end class project. We utilized a combination of technologies including <strong>Vite, React, Bootstrap, and Firebase</strong> to build it. Our goal was to create a responsive and dynamic web application, leveraging the real-time database capabilities of Firebase. The use of Vite and React allowed us to create a fast, modern, and efficient single-page application, while Bootstrap helped us design a clean and user-friendly interface.
           </div>
         </div>
         {/* <div className="row">
