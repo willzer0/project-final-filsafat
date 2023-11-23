@@ -87,8 +87,9 @@ function AboutUs() {
                                 <div className="col-lg-8">
                                   <div className="modal-body">
                                     {/* Project details*/}
-                                    <p className="item-intro text-muted">
-                                      {item.description}
+                                    <p className="item-intro text-bold">
+                                      <h3>{item.description}</h3>
+                                      
                                     </p>
                                     <img
                                       className="img-fluid d-block mx-auto"

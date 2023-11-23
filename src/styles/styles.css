@@ -642,7 +642,10 @@ progress {
   /* background-image: url("../assets/img/"); */
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -5600,7 +5603,11 @@ fieldset:disabled .btn {
 
 .modal-dialog {
   position: relative;
+  /* width: auto; */
   width: auto;
+  /* padding-left: 3rem;
+  padding-right: 4rem; */
+  padding: 3rem;
   margin: 0.5rem;
   pointer-events: none;
 }
@@ -5641,14 +5648,22 @@ fieldset:disabled .btn {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* width: 100%;
+  height: 80%; */
   pointer-events: auto;
-  background-color: #fff;
+  /* background-color: #fff; */
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
 }
+
+
 
 .modal-backdrop {
   position: fixed;
@@ -11708,11 +11723,14 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
+  /* color: wheat; */
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
+.modal-body{
+  color: white;
+}
 .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
@@ -11728,7 +11746,7 @@ header.masthead .masthead-heading {
   line-height: 3rem;
 }
 .portfolio-modal .modal-content p.item-intro {
-  font-style: italic;
+  /* font-style: italic; */
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
