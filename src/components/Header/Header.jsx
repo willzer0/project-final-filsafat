@@ -22,16 +22,14 @@ function Header() {
       }
     };
 
-    // Shrink the navbar
+
     navbarShrink();
 
-    // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 
-    // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
 
-    // ... (your existing code for responsiveNavItems)
+
 
   }, []);
 
@@ -45,10 +43,10 @@ function Header() {
         <Navbar.Collapse id="navbarResponsive">
           <Nav className="ms-auto py-4 py-lg-0">
             {/* <Nav.Link href="#services">More</Nav.Link> */}
-            <Nav.Link href="#portfolio">About Us</Nav.Link>
-            <Nav.Link href="#about">History</Nav.Link>
-            <Nav.Link href="#team">Lecture</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#portfolio"><strong>About Us</strong></Nav.Link>
+            <Nav.Link href="#about"><strong>History</strong></Nav.Link>
+            <Nav.Link href="#team"><strong>Lecture</strong></Nav.Link>
+            <Nav.Link href="#contact"><strong>Contact Us</strong></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
