@@ -11677,12 +11677,34 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0, 22, 255, 0.8);
   align-items: center;
+  background-color: rgba(0, 0, 0, 0); /* Set warna awal menjadi transparan */
+  backdrop-filter: blur(10px); /* Terapkan efek blur */
   justify-content: center;
   opacity: 0;
-  transition: opacity ease-in-out 0.25s;
+  transition: background-color ease-in-out 0.25s, backdrop-filter ease-in-out 0.25s, opacity 0.25s;
+  
 }
+
+
+
+/* #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0); 
+  backdrop-filter: blur(10px); 
+  
+  
+  
+  justify-content: center;
+  opacity: 0;
+  transition: background-color ease-in-out 0.25s, backdrop-filter ease-in-out 0.25s;
+} */
 #portfolio
   .portfolio-item
   .portfolio-link

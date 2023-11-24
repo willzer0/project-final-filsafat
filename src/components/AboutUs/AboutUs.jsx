@@ -53,7 +53,7 @@ function AboutUs() {
                           </div>
                           <img
                             className="img-fluid"
-                            src={item.gambar}
+                            src={item.gambar} 
                             alt="..."
                           />
                         </a>
@@ -103,7 +103,7 @@ function AboutUs() {
                                       <li></li>
                                     </ul>
                                     <button
-                                      className="btn btn-primary btn-xl text-uppercase"
+                                      className="btn btn-warning btn-xl text-uppercase"
                                       data-bs-dismiss="modal"
                                       type="button"
                                     >
