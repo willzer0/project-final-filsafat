@@ -4,7 +4,7 @@ function ContactUs() {
     <footer>
       <div className="footer" id="contact">
         <div className="logo">
-          <a href="https://web.facebook.com/profile.php?id=100082571173139" target="_blank" rel="noreferrer" >
+          <a href="https://web.facebook.com/profile.php?id=100082571173139" target="_blank" rel="noreferrer">
             <i className="logo-sosmed fab fa-facebook fa-2x" />
           </a>
           <a href="https://www.instagram.com/fakultasfilsafatofficial/" target="_blank" rel="noreferrer">
