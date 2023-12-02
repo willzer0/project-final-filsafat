@@ -9,7 +9,7 @@ import History from "./components/History/History";
 import Lecture from "./components/Lecture/Lecture";
 import Masterhead from "./components/Masterhead/Masterhead";
 import VisiMisi from "./components/VisiMisi/VisiMisi";
-import Header from "./components/header/header";
+import Header from "./components/Header/Header";
 import "./config/Firebase";
 
 function App() {
