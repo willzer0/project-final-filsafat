@@ -23,7 +23,7 @@ function Lecture() {
     <section className="page-section bg-light" id="team">
       <div className="container">
         <div className="text-center">
-          <h2 className="section-heading text-uppercase">Our Amazing People</h2>
+          <h2 className="section-heading text-uppercase">Academic Leader</h2>
           <h3 className="section-subheading text-muted">
             Preparing Ministers of the Gospel with Christlike Character to serve
             God and Humanity.

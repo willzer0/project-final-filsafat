@@ -94,13 +94,13 @@ function History() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4 className="subheading">Implementation of Master's Level</h4>
+                <h4 className="subheading">Implementation of Masters Level</h4>
               </div>
               <div className="timeline-body">
                 <p className="text-muted">
                   On August 7 2019, an inauguration event took place Klabat
-                  University's Theology Masters Program is very good. And there
-                  are 37 Theology master's program students who have registered
+                  University Theology Masters Program is very good. And there
+                  are 37 Theology master program students who have registered
                   and ready to take semester 1 lectures, TA 2019/2020. So with
                   the statement of God Master of Theology Unklab has been going
                   well so far.
@@ -110,12 +110,12 @@ function History() {
           </li>
           <li className="timeline-inverted">
             <div className="timeline-image">
-              <h4>
+              <h4> 
                 Be Part
                 <br />
                 Of Our
                 <br />
-                Story!
+                Journey
               </h4>
             </div>
           </li>
