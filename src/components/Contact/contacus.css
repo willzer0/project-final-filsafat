@@ -1,6 +1,6 @@
 .logo-sosmed {
     margin: 1rem;
-    color: #5d5656;
+    color: rgba(160, 83, 11, 0.575);
     transition: transform 0.3s ease; /* Add a smooth transition for the transform property */
 }
 
