@@ -33,7 +33,7 @@ function VisiMisi() {
               <p className="text-muted">{misi} </p>
             </div>
             <div className="col-md-4">
-              <h4 className="my-3">Vission</h4>
+              <h4 className="my-3">Vision</h4>
               <p className="text-muted">{visi} </p>
             </div>
           </center>
