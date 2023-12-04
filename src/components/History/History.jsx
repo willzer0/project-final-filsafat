@@ -2,6 +2,8 @@ import foto1 from "../../assets/img/about/1.jpg";
 import foto2 from "../../assets/img/about/2.jpg";
 import foto3 from "../../assets/img/about/3.jpg";
 import foto4 from "../../assets/img/about/4.jpg";
+import "../../styles/aos.css";
+import Aos from "aos";
 
 function History() {
   return (
@@ -21,7 +23,11 @@ function History() {
                 <h4 className="subheading">At Begining</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">
+                <p
+                  className="text-muted"
+                  data-aos="fade-up"
+                  data-aos-delay={300}
+                >
                   1965 Klabat University (UNKLAB) was founded under the name
                   Klabat Higher Education (PTK) which is built and supervised by
                   the Seventh-day Adventist Church (GMAHK) through the Klabat
