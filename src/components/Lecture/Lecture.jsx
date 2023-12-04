@@ -3,10 +3,14 @@ import { getDatabase, ref, onValue } from "firebase/database";
 
 // import axios from "axios";
 
+import "../../styles/aos.css";
+import Aos from "aos";
+
 function Lecture() {
   const [profile, setLecture] = useState([]);
 
   useEffect(() => {
+    Aos.init();
     const db = getDatabase();
     const featuresRef = ref(db, "lecturer/");
     onValue(featuresRef, (snapshot) => {
@@ -33,7 +37,7 @@ function Lecture() {
         <div className="row">
           {profile.map((item) => {
             return (
-              <div className="col-lg-4" key={item.id}>
+              <div className="col-lg-4" key={item.id} data-aos="fade-up" data-aos-delay={200}>
                 <div className="team-member">
                   <img
                     className="mx-auto rounded-circle"

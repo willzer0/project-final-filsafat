@@ -33,14 +33,10 @@ function ContactUs() {
               <a href="#team">Lecture</a>
             </li>
           </ul>
-          <div>
+          <div className="description">
           This is our front-end class project. We utilized a combination of technologies including <strong>Vite, React, Bootstrap, and Firebase</strong> to build it. Our goal was to create a responsive and dynamic web application, leveraging the real-time database capabilities of Firebase. The use of Vite and React allowed us to create a fast, modern, and efficient single-page application, while Bootstrap helped us design a clean and user-friendly interface.
           </div>
         </div>
-        {/* <div className="row">
-          INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By:
-          Mahesh
-        </div> */}
       </div>
     </footer>
   );
