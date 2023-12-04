@@ -1,9 +1,15 @@
+import { useEffect } from "react";
 import foto1 from "../../assets/img/about/1.jpg";
 import foto2 from "../../assets/img/about/2.jpg";
 import foto3 from "../../assets/img/about/3.jpg";
 import foto4 from "../../assets/img/about/4.jpg";
+import "../../styles/aos.css";
+import Aos from "aos";
 
 function History() {
+  useEffect(() => {
+    Aos.init();
+  });
   return (
     <section className="page-section" id="about">
       <div className="container">
@@ -16,7 +22,11 @@ function History() {
             <div className="timeline-image">
               <img className="rounded-circle img-fluid" src={foto1} alt="..." />
             </div>
-            <div className="timeline-panel">
+            <div
+              className="timeline-panel"
+              data-aos="fade-right"
+              data-aos-delay={300}
+            >
               <div className="timeline-heading">
                 <h4 className="subheading">At Begining</h4>
               </div>
@@ -43,7 +53,11 @@ function History() {
             <div className="timeline-image">
               <img className="rounded-circle img-fluid" src={foto2} alt="..." />
             </div>
-            <div className="timeline-panel">
+            <div
+              className="timeline-panel"
+              data-aos="fade-left"
+              data-aos-delay={300}
+            >
               <div className="timeline-heading">
                 <h4 className="subheading">PTK changes</h4>
               </div>
@@ -69,7 +83,11 @@ function History() {
             <div className="timeline-image">
               <img className="rounded-circle img-fluid" src={foto3} alt="..." />
             </div>
-            <div className="timeline-panel">
+            <div
+              className="timeline-panel"
+              data-aos="fade-right"
+              data-aos-delay={300}
+            >
               <div className="timeline-heading">
                 <h4 className="subheading">Additional Faculty</h4>
               </div>
@@ -92,7 +110,11 @@ function History() {
             <div className="timeline-image">
               <img className="rounded-circle img-fluid" src={foto4} alt="..." />
             </div>
-            <div className="timeline-panel">
+            <div
+              className="timeline-panel"
+              data-aos="fade-left"
+              data-aos-delay={300}
+            >
               <div className="timeline-heading">
                 <h4 className="subheading">Implementation of Masters Level</h4>
               </div>
@@ -110,12 +132,12 @@ function History() {
           </li>
           <li className="timeline-inverted">
             <div className="timeline-image">
-              <h4> 
+              <h4>
                 Be Part
                 <br />
                 Of Our
                 <br />
-                Journey
+                Story!
               </h4>
             </div>
           </li>
