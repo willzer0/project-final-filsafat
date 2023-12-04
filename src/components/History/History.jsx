@@ -116,12 +116,12 @@ function History() {
           </li>
           <li className="timeline-inverted">
             <div className="timeline-image">
-              <h4>
+              <h4> 
                 Be Part
                 <br />
                 Of Our
                 <br />
-                Story!
+                Journey
               </h4>
             </div>
           </li>

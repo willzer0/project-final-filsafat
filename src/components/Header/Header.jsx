@@ -36,7 +36,7 @@ function Header() {
   return (
     <Navbar className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" expand="lg">
       <Container>
-        <Navbar.Brand href="#about">
+        <Navbar.Brand href="#">
           <img src={logoImage} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
